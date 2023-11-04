@@ -29,6 +29,7 @@ CHANGE PASSWORD: The user should enter the old password and then create new pass
 The project is designed and implemented based on the layered architecture model as follow:
 
 For HMI_ECU:
+
 -Application layer
 
 -HAL: LCD, KEYPAD
@@ -36,6 +37,9 @@ For HMI_ECU:
 -MCAL: GPIO , UART, TIMER_1
 
 For CONTROL_ECU:
+
 -Application layer
+
 -HAL: EEPROM, BUZZER, DC_MOTOR
+
 -MCAL: GPIO , UART, TIMER_1, PWM, I2C
