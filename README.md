@@ -3,11 +3,14 @@
 
 The project is implemented via two AVR atmega32 with 8 MHz internal clock frequency communicating through UART.
 
+
+
 The project has two main components:
 
 1- HMI ECU (Human Machine Interface): It is responsible for the interaction with the user to take inputs through keypad and display messages on the LCD.
 
 2- Control ECU: It is responsible for all the processing and decisions in the system like password checking, opening the door using DC Motor and activating the system alarm.
+
 
 
 
@@ -19,6 +22,8 @@ OPEN DOOR: The user should enter the password and the control ECU will compare t
 CHANGE PASSWORD: The user should enter the old password and then create new password if the password matched.
 
 -Alarm System: if the password entered by the user to open the door or to change password is entered Wrong three times the alarm will activate and shows ERROR on the LCD.
+
+
 
 
 The project is designed and implemented based on the layered architecture model as follow:
