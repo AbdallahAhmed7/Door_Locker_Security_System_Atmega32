@@ -18,19 +18,19 @@ The project has two main components:
 
 Here is the main sequence of the system:
 
--Create a System Password: The user enters a 5-digit password, and the system will check if the password is correctly entered two times.
+-CREATE A SYSTEM PASSWORD: The user enters a 5-digit password, and the system will check if the password is correctly entered two times.
 
 .
 
--Main Options: There are two main options (OPEN DOOR , CHANGE PASSWORD) which the user will choose using the keypad.
+-MAIN OPTIONS: There are two main options (OPEN DOOR , CHANGE PASSWORD) which the user will choose using the keypad.
 
-OPEN DOOR: The user should enter the password and the control ECU will compare the password with the one in EEPROM and open the door if they matched.
+Open door: The user should enter the password and the control ECU will compare the password with the one in EEPROM and open the door if they matched.
 
-CHANGE PASSWORD: The user should enter the old password and then create new password if the password matched.
+Change password: The user should enter the old password and then create new password if the password matched.
 
 .
 
--Alarm System: if the password entered by the user to open the door or to change password is entered Wrong three times the alarm will activate and shows ERROR on the LCD.
+-ALARM SYSTEM: if the password entered by the user to open the door or to change password is entered Wrong three times the alarm will activate and shows ERROR on the LCD.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -47,6 +47,7 @@ For HMI_ECU:
 
 -MCAL: GPIO , UART, TIMER_1
 
+.
 
 For CONTROL_ECU:
 
