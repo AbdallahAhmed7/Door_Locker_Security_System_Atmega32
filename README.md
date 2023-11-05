@@ -56,3 +56,8 @@ For CONTROL_ECU:
 -HAL: EEPROM, BUZZER, DC_MOTOR
 
 -MCAL: GPIO , UART, TIMER_1, PWM, I2C
+
+
+
+
+![PROTEUS](https://github.com/AbdallahAhmed7/Door_Locker_Security_System_Atmega32/assets/142527303/ee184a05-068f-418f-b145-82214aad6e19)
