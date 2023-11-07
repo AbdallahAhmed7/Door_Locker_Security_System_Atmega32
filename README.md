@@ -58,6 +58,3 @@ For CONTROL_ECU:
 -MCAL: GPIO , UART, TIMER_1, PWM, I2C
 
 
-![PROTEUS](https://github.com/AbdallahAhmed7/Door_Locker_Security_System_Atmega32/assets/142527303/ee184a05-068f-418f-b145-82214aad6e19)
-![2](https://github.com/AbdallahAhmed7/Door_Locker_Security_System_Atmega32/assets/142527303/c6012d6b-01e3-43a0-af2b-61a6ec85a26c)
-
